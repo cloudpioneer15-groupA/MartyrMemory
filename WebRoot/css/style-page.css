@@ -1,0 +1,297 @@
+@CHARSET "UTF-8";
+body{
+	position: absolute;/*绝对定位*/
+}
+div.container-top{
+	padding:0 0;
+}
+div.container
+{
+	width:1000px;
+	height:467px;
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	padding:0 300px;
+}
+
+div.container-senFlower{
+	width:1000px;
+	height:662px;
+	/*border:1px solid black; 线框大小为一个像素*/
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	background-image:url(../img/images/xhbj.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:40px 300px;/*上下填充为0，左右填充为300*/
+}
+div.words_show{
+	width:802px;
+	height:319px;
+	background-image:url(../img/images/bjjj1.jpg)  ;
+	background-repeat:no-repeat;
+	background-position:center;
+	/*opacity:0.3;/*透明度，0~1越来越清晰*/
+	padding:50px 99px ;/*上下填充为50，左右填充为99*/
+	margin: 0 auto;
+}
+.word_content{
+	width:802px;
+	height:270px;
+}
+.words_show  .words_show1{
+	width: 700px;
+	height: 50px;
+	color: ghostwhite;
+	font-size: 22px;
+/*	text-decoration:underline;*/
+	text-align: match-parent;
+	margin-left: 68px;
+}
+.words_nameSP{
+	width: 80px;
+	height: 50px;
+	display: inline-block;
+	padding-right: 20px;
+}
+.pagination{
+	margin-top: 5px;
+	vertical-align: bottom;
+	text-align: center;
+	padding: 3px;
+	box-shadow: 2px 4px 6px #000;
+}
+.pagination_out{
+	display: none;
+}
+.pagination span{
+	font-family: "微软雅黑", Arial,'Times New Roman','Microsoft YaHei',SimHei;
+}
+.first_page, .page_up, .page_down, .last_page{
+	margin-left:50px;
+}
+.first_page:hover, .page_up:hover, .page_down:hover, .last_page:hover,
+.first_page:active, .page_up:active, .page_down:active, .last_page:active{
+	cursor: pointer;
+}
+.sendFlower{
+	width:367px;
+	height:84px;
+	background-image:url(../img/images/an.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:5px 316px 2px 316px;
+}
+.sendFlower:active, .sendFlower:hover{
+	cursor: pointer;
+}
+form #call, form #words{
+	/*width: 150px;*/
+	height: 20px;
+}
+form #submit{
+	height: 20px;
+	
+}
+
+#worship-num{
+	font:25px arial,sans-serif;
+	font-weight:bold;/*设置字体粗细，默认为normol*/
+	color:#FFFAF0;
+	text-align:center;
+}
+div.send-massage{
+	color:#FFFAF0;
+	padding:0px 99px ;
+	height:20px;
+	/*word-spacing:20px;*/
+}
+/*留言事件*/
+#call{
+	width:180px;
+	height:15px;
+}
+#words{
+	width:300px;
+	height:15px
+}
+div.event-pit{
+	float:left;
+}
+div.con-point{
+	float:left;
+	font-size: 15px;
+	text-indent:2em;
+	letter-spacing: -5px;
+}
+.war-pic{
+	width: 395px;
+	height: 280px;
+	float: left;
+	padding:20px 30px;
+}
+.war-re{
+	width: 400px;
+	height: 300px;
+	float: left;
+	text-indent: 2em;
+}
+.war-substance{
+	font-size: 20px;
+}
+/*抗战事迹等的标题字体设置*/
+@font-face
+{
+	font-family: KaiTi_GB2312;
+	src: url(sansation_light.woff);
+}
+.title-first{
+	font-family:"方正舒体";
+	/*font-style:italic;*/
+	color:#B22222;
+	font-size:60px;
+	font-weight:bold;
+}
+.title-line{
+	border:#000000 double;
+	height:0px;
+	border-width:0px 0px 3px;
+	text-align:justify;
+}
+.title-first .title-second{
+	font-family:"宋体";
+	color:#000000;
+	font-size:40px;
+	border-bottom:4px solid #B22222;
+	/*text-decoration:underline;*/
+		
+}
+.title-first  .title-index{
+	font-family:"宋体";
+	color:#000000;
+	font-size:20px;
+	font-weight: normal;
+	white-space:pre;
+	left:0px;
+	
+}
+/*单页标题设置填充空间*/
+.full-space{
+	width:650px;
+	height:10px;
+	opacity:0; 
+}
+.full-space-lo{
+	width:450px;
+	height:10px;
+	opacity:0; 
+}
+
+.container-head{
+	background-color:#D8D8D8;
+	width:1000px;
+	height:90px;
+	float:top;
+}
+.container-head-love{
+	background-color:#D8D8D8;
+	width:1000px;
+	height:60px;
+	float:top;
+}
+.container-bottom{
+	background-color:#D8D8D8;
+	width:1000px;
+	height:407px;
+	float:top;
+}
+
+div.con-time1{
+	background-color:#D8D8D8;
+	width:1000px;
+	height:60px;
+	float:top;
+	font-family: "宋体";
+	font-size: 20px;
+}
+.con-time1 .title-line1{
+	border-bottom:2px dashed #000;
+}
+.con-date{
+	width:80px;
+	height: 40px;
+	float:left;
+	padding:40px 5px 2px 42px;
+	text-align:left;
+}
+.con-dot{
+	font-size: 14px;
+	text-align: center;
+}
+.heroes_clu{
+	width: 300px;
+	height: 150px;
+	border-width: 3px;
+}
+.heroes_pic{
+	width: 130px;
+	height: 100px;
+	float:left;
+	padding: 10px 5px;
+}
+.heroes_re{
+	width: 140px;
+	height: 150px;
+	float:left;
+	line-height:20px;/*行间距*/
+}
+.heroes_intro{
+	font-size: 15px;
+}
+.crime-pic{
+	width: 522px;
+	height: 298px;
+	float: left;
+	padding:20px 20px;
+}
+.crime-re{
+	width: 400px;
+	height: 385px;
+	float: left;
+}
+.article-title{
+	font-size: 17px;
+	font-weight: bold;
+	text-indent:2em;
+}
+.article-substance{
+	font-size: 14px;
+	text-indent:2em;
+}
+a.article-detail{
+	color: #B22222;
+	text-decoration:underline;
+}
+a{
+	color:#000000;
+}
+.small-tit{
+	color:#000000;
+	font-size: 14px;
+	font-weight: bold;
+	line-height:25px;
+}
+.container-bottom-love{
+	background-color:#D8D8D8;
+	width:1000px;
+	height:700px;
+	float:top;
+}
+.love-edu{
+	width: 250px;
+	height: 150px;
+	text-align: center;
+	font-size: 15px;
+}

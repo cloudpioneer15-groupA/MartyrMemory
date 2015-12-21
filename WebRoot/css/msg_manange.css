@@ -1,0 +1,465 @@
+/* CSS Document */
+body{
+    padding:0px;
+    margin:0 auto;
+    /*在firefox下，禁止部分元素被双击或者鼠标选中*/
+    -moz-user-select:none
+}
+.wrap{
+    width:1346px;
+    height:658px;
+    /*border:1px solid #FF33FF;*/
+}
+/*顶部标题区样式*/
+.top{
+    width:1346px;
+    height:150px;
+}
+.top_title{
+    width:1346px;
+    height:70px;
+}
+.span_title_bar_top{
+    width:1346px;
+    height:15px;
+    background: #1C1A1A;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+.span_title_bar_bottom{
+    width:1346px;
+    height:15px;
+    background: #1C1A1A;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+.span_title{
+    text-align:center;
+    font-size:40px;
+    padding:4px;
+    display:block;
+    font-family: "微软雅黑", Arial,'Times New Roman','Microsoft YaHei',SimHei;
+    color:#F0FBED;
+    background:#1C1A1A;
+    letter-spacing:5px;
+}
+
+/*数据统计区样式*/
+.top_data{
+    width:1346px;
+    height:60px;
+    font-family: "微软雅黑", Arial,'Times New Roman','Microsoft YaHei',SimHei;
+    margin-top:20px;
+    color:#FFFBED;
+    background:#1C1A1A;
+}
+.top_data div{
+    float:left;
+}
+.num_flower{
+    width:620px;
+    text-align:right;
+    margin-top:15px;
+}
+.num_flower span, .num_message span{
+    font-size:23px;
+}
+.num_flower_content, .num_message_content{
+    border:0px;
+    margin-left:20px;
+    background:#FFFBED;
+    width:120px;
+    display:inline-block;
+    text-align:center;
+    color:#1C1A1A;
+    font-size:10px;
+    height: 23px;
+    padding-top: 2px;
+}
+label{
+    font-size:15px;
+}
+.num_message{
+    width:300px;
+    text-align:left;
+    margin-top:15px;
+    margin-left:100px;
+}
+.num_message_unchecked{
+    text-align:left;
+    vertical-align:bottom;
+    margin-left:50px;
+    margin-top:22px;
+}
+.num_message_unchecked_content_2{
+    margin-left:15px;
+    width: 24px;
+    height: 24px;
+    border-radius:12px;
+    text-align: center;
+    background: #f00;
+    padding: 3px;
+    /*静态文件需要将Padding替换为下面代码*/
+    /*display:inline-block;*/
+}
+.num_message_unchecked_content_1{
+    margin-left:15px;
+    width: 16px;
+    height: 16px;
+    border-radius:8px;
+    text-align: center;
+    background: #f00;
+    padding: 1px 5px 1px 5px;
+}
+.num_message_unchecked_content_3{
+    margin-left:15px;
+    width: 28px;
+    height: 28px;
+    border-radius:14px;
+    text-align: center;
+    background: #f00;
+    padding: 7px 2px 7px 2px ;
+}
+
+.num_message_unchecked span{
+    font-size:16px;
+}
+.main{
+    width:1346px;
+    height:509px;
+    /*border:1px solid #0000FF;*/
+}
+/*左侧导航区样式*/
+.main_left{
+    width:200px;
+    height:509px;
+    border-right:1px solid #1C1A1A;
+    float:left;
+}
+
+.new_message_title, .legal_message_title, .illegal_message_title{
+    text-align:center;
+    padding:10px;
+}
+.new_message_title{
+    padding-top:15px;
+}
+.new_message_title span, .legal_message_title span, .illegal_message_title span{
+    font-family: "微软雅黑", Arial,'Times New Roman','Microsoft YaHei',SimHei;
+    font-size:22px;
+    padding:7px 40px ;
+    background:#1C1A1A;
+    border-radius: 18px 18px 18px 18px;
+    color:#FFFBED;
+    text-align: center;
+    z-index:-1;
+}
+.new_message_span:hover, .new_message_span:active,
+.legal_message_span:hover, .legal_message_span:active,
+.illegal_message_span:hover, .illegal_message_span:active{
+    cursor:pointer;
+    color:#FFFFFF;
+    background: #1C1A1A;
+    text-decoration: underline;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+.main_content{
+    width:1346px;
+    height:509px;
+}
+.data_message{
+    width:1110px;
+    height:439px;
+    margin:15px 15px 5px 15px;
+    float:left;
+    border:1px solid #1C1A1A;
+    background:#FFFBED;
+    position: relative;
+}
+/*分页区样式*/
+.pagination_area{
+    float:left;
+    width:1110px;
+    margin-left:15px;
+    height:40px;
+    /*border:1px solid #0000FF;*/
+    text-align:right;
+}
+.pagination_area span{
+    font-size:15px;
+}
+.page_up, .page_down, .go_to, .back_home, .to_final{
+    display:inline-block;
+    width:100px;
+    height:20px;
+    background:#1C1A1A;
+    padding:7px 10px 3px 10px;
+    color:#FFFBED;
+    text-align:center;
+    margin:5px 0 0 30px;
+}
+.page_up:hover, .page_up:active,
+.page_down:hover, .page_down:active,
+.go_to:hover, .go_to:active,
+.back_home:hover, .back_home:active,
+.to_final:hover, .to_final:active{
+    cursor:pointer;
+    color:#FFFFFF;
+    text-decoration:underline;
+    background: #1C1A1A;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+.page_num_area{
+    display:inline-block;
+    width:180px;
+    height:20px;
+    padding:7px 2px 5px 2px;
+    text-align:center;
+    margin:5px 0 0 20px;
+}
+.page_num_area span, .page_num_area label{
+    font-size:18px;
+    color:#000;
+}
+.current_page{
+    width:45px;
+    height:25px;
+    font-size:20px;
+    border:1px solid #000;
+    text-align:center;
+    outline:none;
+}
+/*留言区样式*/
+.message_item{
+    padding:5px;
+    border-bottom:1px solid #1C1A1A;
+}
+.message_item_title{
+    padding:5px 0px;
+    border-bottom:1px solid #1C1A1A;
+    /*FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#1C1A1A,endColorStr=#919190);*/ /*IE*/
+    /*background:-moz-linear-gradient(top,#1C1A1A,#919190);*//*火狐*/
+    /*background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#1C1A1A), to(#919190));*/
+    background: #1C1A1A;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+:root .gradient{filter:none;}
+
+.message_item_title span{
+    color:#FFFBED;
+    font-weight:bold;
+}
+.separator{
+    display:inline-block;
+    width:1px;
+    height:18px;
+    background:#FFFFFF;
+}
+.visitor_name_title{
+    width:70px;
+    height:20px;
+    padding:6px 25px 6px 15px;
+    text-align:left;
+}
+.content_title{
+    width:500px;
+    height:20px;
+    padding:6px 280px;
+    text-align:left;
+}
+.create_time_title{
+    width:150px;
+    height:20px;
+    padding:6px 82px;
+    text-align:left;
+}
+.opt_title{
+    width:50px;
+    height:20px;
+    padding:6px 30px;
+    text-align:left;
+}
+
+.visitor_name{
+    display:inline-block;
+    width:125px;
+    text-align:center;
+}
+.content{
+    display:inline-block;
+    width:625px;
+}
+.create_time{
+    display:inline-block;
+    width:200px;
+    text-align:center;
+}
+.delete{
+    display:inline-block;
+    width:90px;
+    height:20px;
+    text-align:center;
+    letter-spacing:1px;
+}
+.delete_unchecked{
+    display:inline-block;
+    width:45px;
+    height:20px;
+    letter-spacing:1px;
+}
+.delete:hover, .delete:active,
+.delete_unchecked:hover, .delete_unchecked:active{
+    cursor:pointer;
+    text-decoration:underline;
+    font-weight:bold;
+}
+.message_item:hover, .message_item:active{
+    background:#FFFFFF;
+}
+
+/*欢迎区域*/
+.welcome_div{
+    position: absolute;
+    top: 60px;
+    left: 35px;
+    background: url(../img/images/admin_pic.gif) no-repeat left;
+}
+.welcome_div span, .welcome_div span a{
+    font-family: "微软雅黑", Arial, 'Times New Roman', 'Microsoft YaHei', SimHei;
+    font-size: 14px;
+    color:#F0FBED ;
+    margin-left: 20px;
+
+}
+a:visited, a:link{
+    text-decoration: none;
+}
+a:hover, a:active{
+    text-decoration: underline;
+}
+.no_message_tip{
+    color: #f00;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 160px;
+    letter-spacing: 3px;
+}
+/*左侧的分类的三个图标*/
+.icon_title_left_recycle_bin{
+    position: absolute;
+    top: 270px;
+    left: 37px;
+    width: 20px;
+    height: 20px;
+    z-index: 1000;
+}
+.icon_title_left_valid{
+    position: absolute;
+    top: 220px;
+    left: 37px;
+    width: 20px;
+    height: 20px;
+    z-index: 1000;
+}
+.icon_title_left_unchecked{
+    position: absolute;
+    top: 170px;
+    left: 37px;
+    width: 20px;
+    height: 20px;
+    z-index: 1000;
+}
+/*批量表单样式*/
+.selAll{
+    margin-left: 15px;
+}
+.selectedRow{
+    margin-left: 10px;
+}
+.batch_opt{
+    width: 280px;
+    height: 30px;
+    left: 830px;
+    bottom: 15px;
+    position:absolute;
+}
+.delete_batch{
+    display:inline-block;
+    width:100px;
+    height:20px;
+    background:#858584;
+    padding:7px 10px 3px 10px;
+    color:#FFFBED;
+    text-align:center;
+    margin:5px 0 0 0px;
+}
+.valid_batch{
+    display:inline-block;
+    width:100px;
+    height:20px;
+    background:#858584;
+    padding:7px 10px 3px 10px;
+    color:#FFFBED;
+    text-align:center;
+    margin:5px 0 0 30px;
+}
+.delete_batch:hover, .delete_batch:active,
+.valid_batch:hover, .valid_batch:active{
+    cursor:pointer;
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+.background_gradual_change_out{
+    background: #858584;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+.background_gradual_change_over{
+    background: #1C1A1A;
+    background: -moz-linear-gradient(top,  #1C1A1A 0%, #919190 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#919190));
+    background: -webkit-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -o-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: -ms-linear-gradient(top,  #1C1A1A 0%,#919190 100%);
+    background: linear-gradient(to bottom,  #1C1A1A 0%,#919190 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1C1A1A', endColorstr='#919190',GradientType=0 );
+}
+/*分页参数选择*/
+.page_size_select{
+    width: 105px;
+    height: 28px;
+    font-size: 14px;
+}
